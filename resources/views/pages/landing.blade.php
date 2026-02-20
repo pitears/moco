@@ -55,7 +55,7 @@
                     {{ $featured->newsCategory->title }}</div>
                   <img src="{{ Storage::url($featured->thumbnail) }}" alt="" class="w-full rounded-xl mb-3" style="height: 240px; objectfit:cover
                   <p class="font-bold text-base mb-1">{{ $featured->title }}</p>
-                  <p class="text-slate-400">{{ $featured->created_at->format('d F Y') }}</p>
+                  <p class="text-slate-400">{{ $featured->created_at->format('d M Y') }}</p>
                 </div>
               </a>
       @endforeach
